@@ -1,17 +1,50 @@
 @charset "utf-8";
+
+/* Atmospheric Color Palette Variables */
+:root {
+    --bg-sky-top: #eaf3fb;
+    --bg-sky-bottom: #f8fafc;
+    --text-primary: #1e293b;
+    --text-heading: #0f172a;
+    --link-color: #0284c7;
+    --link-hover: #0369a1;
+    --card-bg: #ffffff;
+    --card-border: #dbeafe;
+    --navbar-bg: rgba(255, 255, 255, 0.85);
+}
+
 body {
     font-family: "Lato", sans-serif;
     font-weight: 400;
     padding-top: 5.0rem;
+    color: var(--text-primary);
+    /* Soft sky atmospheric gradient */
+    background: linear-gradient(180deg, var(--bg-sky-top) 0%, var(--bg-sky-bottom) 100%);
+    background-attachment: fixed;
+    min-height: 100vh;
 }
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
     font-weight: 700;
+    color: var(--text-heading);
+}
+
+/* Atmospheric link accent */
+a {
+    color: var(--link-color);
+    transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+    color: var(--link-hover);
 }
 
 .card {
     border-radius: 0.8rem!important;
+    background-color: var(--card-bg);
+    border: 1px solid var(--card-border) !important;
+    box-shadow: 0 4px 12px rgba(14, 116, 144, 0.04);
 }
 
 .card-img-overlay {
@@ -32,21 +65,23 @@ h1, h2, h3, h4, h5, h6,
     border-top-right-radius: 0.8rem !important;
 }
 
-
 .text-profile-position {
     font-weight: 400;
 }
 
 .text-profile-bio {
-    /* font-family: "Raleway"; */
     font-weight: 400;
 }
 
+/* White frosted navbar */
 .navbar {
-    background-color: rgba(255, 255, 255, 0.6) !important;
+    background-color: var(--navbar-bg) !important;
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
+    border-bottom: 1px solid rgba(226, 232, 240, 0.8);
 }
+
+
 
 .inline-badge {
     height: 16px;
@@ -68,15 +103,7 @@ h1, h2, h3, h4, h5, h6,
     min-height: 100px;
 }
 
-img.lazy {
-    background-image: url('images/loading.gif');
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: 50px 50px;
-    min-height: 80px;
-}
-
-div.lazy {
+img.lazy, div.lazy {
     background-image: url('images/loading.gif');
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -86,6 +113,8 @@ div.lazy {
 
 .badge-publication {
     font-size: 100%;
+    background-color: #e0f2fe;
+    color: #0369a1;
 }
 
 .email-text {
@@ -149,4 +178,11 @@ div.lazy {
     .carousel-indicators button {
         transition: none;
     }
+}
+.about-photo {
+    width: 100%;
+    height: 200px; /* Adjust this height to fit your preference */
+    object-fit: cover; /* Keeps aspect ratio and crops cleanly */
+    border-radius: 0.8rem !important;
+    border: 1px solid var(--card-border);
 }

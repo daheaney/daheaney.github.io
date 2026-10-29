@@ -1,7 +1,7 @@
 ---
 layout: default
-title : Homepage
-navbar_title: Home
+title : About
+navbar_title: About
 ---
 
 <div class="row">
@@ -11,6 +11,17 @@ navbar_title: Home
     <div class="col-lg-9 col-md-8">
 
         {% include widgets/profile_card_bio_only.html %}
+
+        {% if site.data.profile.about_me_photos %}
+        <div class="row g-2 my-3">
+        {% for photo in site.data.profile.about_me_photos %}
+            <div class="col-4">
+            <img src="{{ photo | relative_url }}" class="img-fluid rounded-xl about-photo" alt="About photo">
+            </div>
+        {% endfor %}
+        </div>
+        {% endif %}
+
 
         <!-- Debugging widgets -->
         {% include widgets/debug_repo_name.html %}
@@ -37,3 +48,4 @@ navbar_title: Home
         {% endif %}
     </div>
 </div>
+

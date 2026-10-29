@@ -1,58 +1,64 @@
-primary_name: "Your Name"
+primary_name: "Danika Heaney"
 secondary_name: ""
-navbar_name: "Your Name"
+navbar_name: "Danika Heaney"
 
 positions:
-- name: Title or Position
-- name: Affiliation Name
-  logo: /assets/images/badges/MIT_Social_circle.png  # Logo is optional
+- name: PhD Candidate 
+- name: UC Berkeley
+  logo: /assets/images/badges/UCB_logo.png  # Logo is optional
 
 
-email: "your@email.com"
+email: "danika_heaney@berkeley.edu"
 # cv_link: link-to-your-cv-file
-gscholar: xFmQpf4AAAAJ  # This is an example, replace it with your own Google Scholar ID
-github: your_github_id
-twitter: your_twitter_id  # Do not include the '@' symbol
-# linkedin: your-linked-in-id
+gscholar: rXHW2D0AAAAJ  # This is an example, replace it with your own Google Scholar ID
+github: daheaney
+#twitter: your_twitter_id  # Do not include the '@' symbol
+linkedin: danika-heaney
 # orcid: 0000-0000-0000-0000
 
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    A <a href="https://en.wikipedia.org/wiki/Bicolor_cat" target="_blank">bicolor cat</a> is a cat with white fur combined with fur of some other colour, for example solid black, tabby, or colourpointed.
+    I am Ph.D. candidate in the UC Berkeley Department of Chemistry working in the <a href="https://beacon.berkeley.edu/about/" target="_blank">BEACO<sub>2</sub>N Group</a> with Professor Ron Cohen.
+    My research highlights CO<sub>2</sub> emissions in cities, with a focus on identifying emissions patterns throughout time using inverse modeling and our dense network of BEACO<sub>2</sub>N sensors.
+    My interests include atmospheric chemistry, greenhouse gas emissions, and the intersection of climate science and policy.
   </p>
   <p>
-    There are various patterns of a bicolour cat. These range from the Van-patterned (colour on the crown of the head 
-    and the tail only) to a solid colour with a throat locket or medallion. Bicolour coats are found in many cat breeds, 
-    as well as being common in domestic longhair and domestic shorthair cats.
+    Outside of research I enjoy hiking, taking care of my plants, and playing soccer and ultimate frisbee.
   </p>
 
-portrait_url: /assets/images/photos/portrait.jpg
+about_me_photos:
+  - /assets/images/photos/BEACON3.jpeg
+  - /assets/images/photos/BEACON5.png
+  - /assets/images/photos/BEACON2.jpeg
+
+portrait_url: /assets/images/photos/headshot_danika.png
 portrait_caption: >-
-  Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
+  Photo of Danika Heaney, Ph.D. Candidate in the UC Berkeley Department of Chemistry.
 
 education:
-- name: Massachusetts Institute of Technology
-  logo: /assets/images/badges/MIT_Social_circle.png
+- name: University of California, Berkeley
+  logo: /assets/images/badges/UCB_logo.png
   position: >- 
-    Department of Electrical Engineering and Computer Science <br/>
-    Ph.D. Student
-  date: Sep. 2024 - present
-- name: Peking University
-  logo: /assets/images/badges/PKU_red.png
-  position: B.S. in Computer Science
-  date: Sep. 2019 - Jul. 2021
+    Department of Chemistry <br/>
+    Ph.D. Candidate
+  date: Aug. 2024 - present
+- name: Wellesley College
+  logo: /assets/images/badges/wellesley.png
+  position: B.A. in Chemistry and Minor in Computer Science
+  date: Sep. 2019 - May. 2023
 
 # experience:
-# - name: Peking University
-#   logo: /assets/images/badges/PKU_red.png
-#   position: Research Intern
+# - name: add
+#   logo: /assets/images/badges/add.png
+#   position: add
 #   date: Sep. 2019 - Jul. 2021
 
 awards:
-- name: Award Name 2
+- name: A&WMA Sustainability Research and Study Related to Air Quality Scholarship
+  date: 2026
+- name: NSF Graduate Research Fellowships Program Honorable Mention
   date: 2024
-- name: Award Name 1 
-  date: 2021
-- name: A quick brown fox jumps over the lazy dog and runs away award
-  date: 2021
+- name: Fulbright Research Award
+  date: 2023
+

@@ -5,19 +5,18 @@ date: 2024-01-12 00:01:00 +0800
 ---
 
 <div class="p-4">
-    <h2>Welcome to Showcase!</h2>
+    <h2>Research</h2>
     <hr />
     <p>
-        <code>Showcase</code> is a page where you can show off almost anything you want. It can be the photo of your pets, your favorite books, your favorite projects, or anything else you want to show to the world.
+        Burning fossil fuels in cars, homes, and businesses for transportation, heating, and energy is putting carbon dioxide (CO<sub>2</sub>) into the atmosphere. Rising CO<sub>2</sub> levels are causing the earth to warm and driving global climate change. 
     </p>
     <p>
-        You can create a new showcase item by creating a new file in the <code>_showcase</code> folder. It gives you the highest flexibility to customize the item using any HTML code.
+        In my research I study CO<sub>2</sub> emissions in the San Francisco Bay Area and Los Angeles County. I have observed that yearly emissions of CO<sub>2</sub> are decreasing in both areas. 
     </p>
     <p>
-        Cards are ordered by the <code>date</code> field in the front matter in descending order. The <code>width</code> field is used to determine the width of the card, ranging from 1 to 12.
-        Layout is done by the <a href="https://masonry.desandro.com/" target="_blank">Masonry</a> library.
+        This is because cars are getting more efficient and more people are driving electric vehicles. Emissions of CO<sub>2</sub> from homes and businesses burning natural gas for space and water heating have not changed significantly for the last 4 years in LA and for the last 8 years in the SF Bay Area.
     </p>
     <p>
-        For a tidy layout, it is recommended to set the width of the cards to be either multiple of 3 or multiple of 4 for all cards, except for small badges that do not take up much space (width=1).
+        If these cities would like to meet the California state goal of net zero GHG emissions by 2045, more aggressive new policies will need to be implemented in the building energy sector. 
     </p>
 </div>
