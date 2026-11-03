@@ -37,6 +37,9 @@ plugins:
 # timezone: Asia/Shanghai
 
 collections:
-  - Research
-  - Teaching
-  - CV
+  research:
+    output: true
+  teaching:
+    output: true
+  cv:
+    output: true
