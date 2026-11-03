@@ -37,6 +37,10 @@ plugins:
 # timezone: Asia/Shanghai
 
 collections:
+  showcase:
+    output: true
+  publications:
+    output: true
   research:
     output: true
   teaching:
