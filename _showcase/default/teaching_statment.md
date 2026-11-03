@@ -9,10 +9,10 @@ date: 2024-01-12 00:02:00 +0800
     <h2>Teaching</h2>
     <hr />
     <p>
-        I believe that effective science education bridges rigorous chemical principles with real-world environmental impacts. My goal as an instructor and mentor is to foster inclusive, inquisitive learning environments where students from all academic backgrounds feel empowered to ask critical questions and build confidence in quantitative problem-solving.
+        Effective science communication and teaching are key parts of the fight to combat climate change and reduce emissions. Through my work as a graduate student instructor, I have taught courses from introductory chemistry to advanced atmospheric science. In the courses and my community based outreach work, I focus on connecting the building blocks of chemistry to real-world environmental and air quality challenges. 
     </p>
     <p>
-        Through hands-on laboratory experimentation, computational data science modules, and community-based atmospheric science outreach, I aim to make chemistry accessible, engaging, and directly connected to pressing climate and air quality challenges facing our communities.
+        Central to my teaching and undergraduate mentorship philosophy is creating a supportive atmosphere where students feel comfortable taking risks and sharing inconclusive data. As a teacher, I ask open-ended questions and use equity-based teaching techniques like think, pair, share. As a research mentor, I build trust and community outside the lab by organizing regular group lunches and game nights.
     </p>
 </div>
 
