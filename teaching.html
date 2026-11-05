@@ -93,8 +93,8 @@ container_class: container-xl
     </div>
 {% endif %}
 
-<!-- Mentorship & Diversity Initiatives -->
-<h2 class="mb-3">Mentorship & Diversity</h2>
+<!-- Mentorship  -->
+<h2 class="mb-3">Mentorship</h2>
 {% assign mentorship_items = all_teaching | where: "type", "mentorship" %}
 {% if mentorship_items.size > 0 %}
     {% assign sorted_mentorship = mentorship_items | sort: "order" %}
