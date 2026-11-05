@@ -5,9 +5,9 @@ pages:
   url: /
 # - name: Publications
 #   url: /publications
-- name: Research
-  url: /Research
-- name: Teaching
-  url: /Teaching
-- name: CV
-  url: /CV
+- name: research
+  url: /research
+- name: teaching
+  url: /teaching
+- name: cv
+  url: /cv
